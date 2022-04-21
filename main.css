@@ -1,5 +1,6 @@
 @font-face { font-family: Parklane; src: url('fonts/parklane.ttf');}
  @font-face { font-family: Parklane; font-weight: bold; src: url('fonts/parklane.ttf');}
+
 html {
     background-color:hsl(0, 74%, 28%);
  }
