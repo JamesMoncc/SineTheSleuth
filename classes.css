@@ -1,7 +1,7 @@
 
 .fakeButton {
-  background: rgb(128, 80, 29);
-  border: 2px solid rgb(255, 255, 255);
+    background: rgb(128, 80, 29);
+    border: 2px solid rgb(255, 255, 255);
     font: bold 2vw Arial;
     text-decoration: none;
     color: #333333;

@@ -2,7 +2,7 @@
  @font-face { font-family: Parklane; font-weight: bold; src: url('fonts/parklane.ttf');}
 html {
     text-align: center;
-    background-color:hsl(0, 74%, 28%);
+    background-color:rgb(124, 19, 19);
 }
 button {
     font: bold 2vw Arial;
@@ -55,6 +55,6 @@ h1 {
     margin-bottom: 3rem;
     padding:0;
     font-weight: bold;
-    color: rgb(255, 255, 255);
+    color: rgb(207, 149, 49);
     font-family: Parklane, sans-serif;
   }
