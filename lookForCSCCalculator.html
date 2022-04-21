@@ -17,12 +17,12 @@
     <br>
     <button onClick="onClick('/')">/</button> <button onclick="onClick('0')">0</button> <button onclick="onClick('π')">π</button>
     <br>
-    <button id="CONTINUEButton" class="CONTINUEButton" onclick="window.location.href='poisonFound.html'">CONTINUE</button>
+    <button id="continueButton" class="continueButton" onclick="window.location.href='poisonFound.html'">CONTINUE</button>
 </div>
 <script>
     var safeInput = '0000';
     var code = '2π';
-    document.getElementById('CONTINUEButton').style.visibility = 'hidden';
+    document.getElementById('continueButton').style.visibility = 'hidden';
     document.addEventListener('keydown', function(event) {
     const key = event.key;
     if (key === "Backspace" || key === "Delete") {
@@ -44,8 +44,8 @@
         document.getElementById('safeDisplay').textContent = safeInput;
         if (safeInput == code){
             document.getElementById('safeDisplay').textContent = 'SUCCESS';
-            document.getElementById('CONTINUEButton').style.visibility = 'visible';
-            document.getElementById('CONTINUEButton').scrollIntoView();
+            document.getElementById('continueButton').style.visibility = 'visible';
+            document.getElementById('continueButton').scrollIntoView();
         }
   }
 </script>
